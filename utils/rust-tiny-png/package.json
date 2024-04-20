@@ -1,0 +1,14 @@
+{
+  "name": "rust-tiny-png",
+  "version": "0.1.0",
+  "files": [
+    "rust_tiny_png_bg.wasm",
+    "rust_tiny_png.js",
+    "rust_tiny_png.d.ts"
+  ],
+  "module": "rust_tiny_png.js",
+  "types": "rust_tiny_png.d.ts",
+  "sideEffects": [
+    "./snippets/*"
+  ]
+}
